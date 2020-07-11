@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.hover, .popUp{
+  width: 200px;
+  height: 100px;
+  border: 1px solid black;
+}
+.popUp{
+  position: absolute;
+  z-index: 20;
+  background: red;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<div idElement = 1 class = hover></div>
+<div idElement = 2 class = hover></div>
+
+<div class = popUp id="stick1" style="display: none;">Hola soy un preview del 1</div>
+<div class = popUp id="stick2" style="display: none;">Hola soy un preview del 2</div>
+<script src="./js-front.js"></script>
+
+
+
+</body>
+</html>
