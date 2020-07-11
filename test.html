@@ -2,12 +2,16 @@
 <html>
 <head>
 <style>
+.hover{
+  margin: 20px;
+  display: inline-block;
+}
 .hover, .popUp{
   width: 200px;
   height: 100px;
   border: 1px solid black;
 }
-.popUp{
+.toolup{
   position: absolute;
   z-index: 20;
   background: red;
@@ -15,17 +19,37 @@
 }
 
 </style>
+<script>
+  let sumar = "soy una variable en html";
+</script>
 </head>
 <body>
 
-<div idElement = 1 class = hover></div>
-<div idElement = 2 class = hover></div>
+<div idElement = 1 class = hover>1</div>
+<div idElement = 2 class = hover>2</div>
+<div idElement = 3 class = hover>3</div>
+<div idElement = 4 class = hover>4</div>
+<div idElement = 5 class = hover>5</div>
+<div idElement = 6 class = hover>6</div>
+<div idElement = 7 class = hover>7</div>
+<div idElement = 8 class = hover>8</div>
+<div idElement = 9 class = hover>9</div>
+<div idElement = 10 class = hover>10</div>
+<div idElement = 11 class = hover>11</div>
+<div idElement = 12 class = hover>12</div>
+<div idElement = 13 class = hover>13</div>
+<div idElement = 14 class = hover>14</div>
+<div idElement = 15 class = hover>15</div>
+<div idElement = 16 class = hover>16</div>
+<div idElement = 17 class = hover>17</div>
+<div idElement = 18 class = hover>18</div>
+<div idElement = 19 class = hover>19</div>
+<div idElement = 20 class = hover>20</div>
 
-<div class = popUp id="stick1" style="display: none;">Hola soy un preview del 1</div>
-<div class = popUp id="stick2" style="display: none;">Hola soy un preview del 2</div>
+
 <script src="./js-front.js"></script>
 
-
+<div class="toolup"></div>
 
 </body>
 </html>
